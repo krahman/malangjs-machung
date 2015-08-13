@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "App1",
+    "script": "server.js",
+    "exec_mode": "cluster",
+    "instances": 3
+  },{
+    "name": "App2",
+    "script": "server2.js",
+    "exec_mode": "cluster",
+    "instances": 1
+    }
+  ]
+}
